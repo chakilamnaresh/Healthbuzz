@@ -14,7 +14,8 @@ pip install alembic
 
 alembic init migrations
 
-**To run migrations**\n
+**To run migrations**
+
 alembic revision --autogenerate -m "creating patients table"
 alembic upgrade head
 
